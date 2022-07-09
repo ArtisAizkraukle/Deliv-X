@@ -1,0 +1,7 @@
+<Image
+style={{
+  width: 300,
+  height: 300,
+}}
+source={require(HEADER_IMG_URI)}
+/>

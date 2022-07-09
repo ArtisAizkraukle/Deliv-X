@@ -1,0 +1,90 @@
+npm install @reduxjs/toolkit
+npm install react-redux
+
+npm install twrnc
+
+npm install react-native-elements
+npm install react-native-vector-icons
+npm install react-native-safe-area-context
+
+npm install @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
+npm install react-native-screens react-native-safe-area-context
+
+npx pod-install ios
+y
+CocoaPods is not supported in this project
+
+npm install @react-navigation/native-stack
+npm install react-native-gesture-handler
+
+npm install react-native-dotenv
+And in babel.config.js file:
+
+module.exports = function(api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: [
+      [
+        "module:react-native-dotenv",
+        {
+          moduleName: "@env",
+          path: ".env",
+        },
+      ],
+    ],
+  };
+};
+
+npm install react-native-google-places-autocomplete --save
+
+npm audit fix --force
+///////////////////////////
+Run `npm audit` for details.
+artissvoks@Artiss-MacBook-Pro eKurjers % npm audit fix --force
+
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating react-native to 0.69.0,which is a SemVer major change.
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: react-native@0.69.0
+npm WARN Found: react@17.0.2
+npm WARN node_modules/react
+npm WARN   peer react@"*" from @react-navigation/core@6.2.1
+npm WARN   node_modules/@react-navigation/core
+npm WARN     @react-navigation/core@"^6.2.1" from @react-navigation/native@6.0.10
+npm WARN     node_modules/@react-navigation/native
+npm WARN   15 more (@react-navigation/elements, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer react@"18.0.0" from react-native@0.69.0
+npm WARN node_modules/react-native
+npm WARN   react-native@"0.69.0" from the root project
+npm WARN   12 more (@react-navigation/elements, ...)
+npm WARN
+npm WARN Conflicting peer dependency: react@18.0.0
+npm WARN node_modules/react
+npm WARN   peer react@"18.0.0" from react-native@0.69.0
+npm WARN   node_modules/react-native
+npm WARN     react-native@"0.69.0" from the root project
+npm WARN     12 more (@react-navigation/elements, ...)
+
+added 51 packages, removed 46 packages, changed 40 packages, and audited 1242 packages in 2m
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+artissvoks@Artiss-MacBook-Pro eKurjers %
+//////////////////////////////
+
+Custom Header and Footer - React Native Drawer Navigator
+https://youtu.be/mRoDNjhRO3E
+
+Create a new Expo project
+
+Initialize an Expo codebase on your machine with Expo CLI:
+
+npm i -g expo-cli
+npx create-expo-app deliv-x
+Set the owner property in app.json to artisaizkraukle.
