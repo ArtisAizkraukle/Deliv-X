@@ -1,12 +1,12 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Image } from 'react-native'
+import tw from 'twrnc';
 
 const ChatArea = () => {
 	return (
-		<View>
-			<Text>Deliv-X</Text>
-			<Text>Piegādes aplikācijas 3 soļi un sūtījums ir ceļā</Text>
-		</View>
+
+		<View style={{ width: '100%', height: '100%' }}>
+			</View>
 	)
 }
 
